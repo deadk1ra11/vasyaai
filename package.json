@@ -1,0 +1,17 @@
+
+{
+  "name": "vasya-ai",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Vasya AI website assistant",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "@google/genai": "^1.30.0",
+    "cheerio": "^1.1.2",
+    "dotenv": "^16.4.7",
+    "express": "^5.1.0"
+  }
+}
